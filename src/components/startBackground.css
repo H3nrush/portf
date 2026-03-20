@@ -1,0 +1,39 @@
+.stars-background {
+  position: fixed;      /* stays behind all content */
+  top: 0;
+  left: 0;
+  width: 100vw;         /* full viewport width */
+  height: 100vh;        /* full viewport height */
+  background-color: black; /* fully visible background */
+  opacity: 1;           /* 100% visible */
+  overflow: hidden;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  animation-name: moveStar, twinkle;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 1;           /* stars fully visible */
+}
+
+/* Star movement */
+@keyframes moveStar {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px) translateX(100px);
+    opacity: 1;  /* keep stars fully visible during movement */
+  }
+}
+
+/* Star twinkle effect */
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 1; }  /* no fading, fully visible */
+}
