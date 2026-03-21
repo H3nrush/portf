@@ -1,88 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-#header{
-    h1{
-        width: 50vw;
-        height: 5vh;
+
+#header {
+  position: relative;
+  width: 100vw;
+  height: 10vh;
+  nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+    .menu-icon {
+      display: none;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
+      margin-right: 2.5vw;
+    }
+
+    #menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 10vh;
+
+      .socials {
+        display: flex;
+        gap: 15px;
+        .soc-icon {
+          color: white;
+          transition: transform 0.3s, color 0.3s;
+          &:hover {
+            color: #1e90ff;
+            transform: scale(1.2);
+          }
+        }
+      }
+
+      .links {
+        display: flex;
+        gap: 1rem;
+        a {
+          font-weight: 1000;
+          border-radius: 10px;
+          padding: 5px 10px;
+          &:hover {
+            background-color: #1e90ff;
+            color: black;
+            transition: 0.3s;
+          }
+        }
+      }
+
+      .website-builder {
+        a {
+          font-weight: 700;
+          border-radius: 10px;
+          &:hover {
+            color: #1e90ff;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+
+    // Mobile view
+    @media screen and (max-width: 1000px) {
+      .menu-icon {
+        display: block;
         position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #1e90ff;
-        font-family: "Cookie", cursive;
-        user-select: none;
-    }
-    width: auto;
-    height: auto;
-    nav{
-        height: 10vh;
-        width: 100vw;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        top: 2.5vh;
+        right: 1.5vh;
+        z-index: 10000;
+
+      }
+      #menu {
+        position: absolute;
+        top:0;
+        right: 0;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.877);
+        border: rgba(255, 255, 255, 0.377) solid 1px;
+        width: 60vw;
+        height: 100vh;
+        padding: 2rem;
+        z-index: 9999;
+        display: none; // hide by default
+        gap: 2rem;
+        overflow-x: scroll;
+
+        &.open {
+          display: flex; // show when menuOpen is true
+        }
+        .links,
+        .website-builder {
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
         .socials{
-            width: 15vw;
-            height: 10vh;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            .soc-img{
-                width: 30px;
-            }
-            .soc-img:hover{
-                transform: scale(1.2);
-                transition: 0.3s;
-            }
+            flex-direction: row;
         }
-        .links{
-            width: 70vw;
-            height: 10vh;
-            display: flex;
-            align-items: end;
-            justify-content: center;
-            a{
-                font-weight: 1000;
-                margin: 0 1rem;
-                border-radius: 10px;
-            }
-            a:hover{
-                background-color: #1e90ff;
-                color: black;
-                padding: 5px 10px;
-                transition: padding 0.3s ease-out;
-            }
-        }
-        .website-builder{
-            width: 15vw;
-            height: 10vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            a{
-                border-radius: 10px;
-                font-weight: 700;
-            }
-            a:hover{
-                color: #1e90ff;
-                transition: all 0.5s;
-            }
-        }
-    }
-}
-
-.socials {
-  display: flex;
-  gap: 15px;
-
-  .soc-icon {
-    color: white;
-    transition: transform 0.3s, color 0.3s;
-    
-    &:hover {
-      color: #1e90ff;   // change color on hover
-      transform: scale(1.2);
+      }
     }
   }
 }

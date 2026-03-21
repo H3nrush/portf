@@ -1,5 +1,5 @@
 import './footer.scss';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -25,12 +25,11 @@ function Footer() {
 
         {/* Social */}
         <div className="footer-social">
-          <h3>Follow Us</h3>
+          <h3>Follow Me</h3>
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedinIn /></a>
+            <a href="https://www.facebook.com/h3nrush/" target='_blank' rel='noreferrer'><FaFacebookF /></a>
+            <a href="https://www.instagram.com/h3nrush/" target='_blank' rel='noreferrer'><FaInstagram /></a>
+            <a href="https://www.linkedin.com/in/h3nrush/" target='_blank' rel='noreferrer'><FaLinkedinIn /></a>
           </div>
         </div>
       </div>
