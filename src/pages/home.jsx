@@ -55,41 +55,41 @@ function Home() {
 <section id='skills'>
   <h2>Tools :</h2>
   <section id='mor-info' className='skills-icons'>
-    <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" title="React.js" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" title="React.js"  >
       <DiReact size={48} color="#61DBFB" /><br />React
     </a>
-    <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL"  >
       <DiMysql size={48} color="#4479A1" /><br />MySql
     </a>
-    <a href="https://en.wikipedia.org/wiki/Figma_(software)" title="Figma" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/Figma_(software)" title="Figma"  >
       <SiFigma size={48} color="#F24E1E" /><br />Figma
     </a>
-    <a href="https://en.wikipedia.org/wiki/Next.js" title="Next.js" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/Next.js" title="Next.js"  >
       <SiNextdotjs size={48} color="#000000" /><br />Next.js
     </a>
-    <a href="https://en.wikipedia.org/wiki/Express.js" title="Express.js" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/Express.js" title="Express.js"  >
       <SiExpress size={48} color="#000000" /><br />Express.js
     </a>
-    <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" title="Sass" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" title="Sass"  >
       <DiSass size={48} color="#CF649A" /><br />Sass
     </a>
-    <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" title="Tailwind CSS" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" title="Tailwind CSS"  >
       <SiTailwindcss size={48} color="#06B6D4" /><br />Tw CSS
     </a>
-    <a href="https://en.wikipedia.org/wiki/TypeScript" title="TypeScript" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/TypeScript" title="TypeScript"  >
       <SiTypescript size={48} color="#3178C6" /><br />TS
     </a>
   </section>
 
   <h2>Base Tools :</h2>
   <section id='base-more-info' className='skills-icons'>
-    <a href="https://en.wikipedia.org/wiki/HTML5" title="HTML" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/HTML5" title="HTML"  >
       <DiHtml5 size={48} color="#E34C26" /><br />HTML
     </a>
-    <a href="https://en.wikipedia.org/wiki/CSS" title="CSS" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/CSS" title="CSS"  >
       <DiCss3 size={48} color="#264DE4" /><br />CSS
     </a>
-    <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript" target="_blank" rel="noopener noreferrer">
+    <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript"  >
       <DiJavascript size={48} color="#F7DF1E" /><br />JS
     </a>
   </section>
