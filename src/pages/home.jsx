@@ -1,7 +1,7 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 import './home.scss'
-import myPhoto from '../photos/my-photo.png'
+import myPhoto from '../photos/my-photo.jpg'
 import { DiReact, DiMysql, DiHtml5, DiCss3, DiJavascript, DiSass } from 'react-icons/di';   // Devicons
 import { SiNextdotjs, SiExpress, SiFigma, SiTailwindcss, SiTypescript } from 'react-icons/si'; // Simple Icons
 
