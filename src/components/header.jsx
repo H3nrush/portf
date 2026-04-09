@@ -21,7 +21,7 @@ function Header() {
         <div id='menu' className={menuOpen ? 'open' : ''}>
           <div className='socials'>
             <a
-              href="https://drive.google.com/file/d/1XV5Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z/view?usp=sharing"
+              href="https://drive.google.com/file/d/1RSw15ZD0P7nq1CJmVSw77WJUlQETa8FQ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className='soc-icon'
