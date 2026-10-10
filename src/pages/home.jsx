@@ -24,7 +24,7 @@ function Home() {
           <h2>About Me 🌟</h2>
 
           <p>
-            Hello! I am <strong>Hassan Mohammadi</strong>, a passionate <strong>web developer</strong> with expertise in 
+            Hello! I am <strong>Hassan Mohammadi</strong>, a passionate <strong>web developer</strong> with expertise in  
             <strong>React.js, Next.js, Express.js, MySQL, and Figma</strong>. I build modern, high-performance websites that are not only visually stunning but also fast, secure, and scalable. 🚀
           </p>
 
