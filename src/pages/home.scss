@@ -31,8 +31,9 @@
         height: auto;
         display: flex;
         justify-content: center;
+        align-items: center;
         img {
-            width: 80vw;
+            width: 200px;
             user-select: none;
                 animation: fadeIn 2s ease-in-out;
                 border-radius: 10px;
